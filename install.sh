@@ -7,8 +7,7 @@ sudo yum install -y java-1.8.0-openjdk java-1.8.0-openjdk-devel maven
 
 sudo gem install sass
 
-cd /tmp
-wget http://www.gtlib.gatech.edu/pub/apache/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.zip
+cp ./apache-maven-3.3.9-bin.zip /tmp/apache-maven-3.3.9-bin.zip
 
 unzip apache-maven-3.3.9-bin.zip
 sudo mv apache-maven-3.3.9 /opt/maven
